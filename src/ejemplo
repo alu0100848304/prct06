@@ -1,0 +1,20 @@
+#!/usr/bin/python 
+pi= 3.1415926535897931159979634685441852
+n = int(raw_input('Valor de n: '))
+def aproxpi(n):
+  f=n/(1+x*x)
+  return f
+  suma=0
+  if n <=0:
+    print 'El numero de intervalos debe ser mayor que o'
+    n = int(raw_input('Valor de n: '))
+  else n >=0:
+    for i in range (1,n+1):
+    a = float (i-1)/n
+    b = float (i)/n
+    print 'Subintervalo' ,[a,b],'x_i=',x_i,'f',f
+    suma=suma + f
+    pi2= float (suma)/n
+    aproxpi(n)
+print 'El valor aproximado de pi es: ',pi2
+print 'El valor de pi con 35 decimales es: %1.35g'%pi
